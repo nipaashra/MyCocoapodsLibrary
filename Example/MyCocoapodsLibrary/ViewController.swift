@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let path = frameworkBundle.path(forResource: "Resources", ofType: "bundle")
         let resourcesBundle = Bundle(url: URL(fileURLWithPath: path!))
         let image = UIImage(named: "flowers.jpeg",in: resourcesBundle,compatibleWith: nil)
-        print(image)
+        print(image!)
         
     }
 
